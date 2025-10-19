@@ -1,10 +1,10 @@
 export const features = [
     {
         id: '0',
-        icon: '/images/feature-1.png',
+        icon: 'src/public/images/feature-1.png',
         caption: 'Easy integration',
         title: 'Work smarter not harder',
-        text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+        text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
         button: {
             icon: 'src/public/images/magictouch.svg',
             title: 'Watch the demo',
@@ -15,7 +15,7 @@ export const features = [
         icon: 'src/public/images/feature-2.png',
         caption: 'Secure & trustworthy',
         title: 'Sleep easy, we got your back',
-        text: 'Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.',
+        text: 'Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.',
         button: {
             icon: 'src/public/images/docs.svg',
             title: 'Read the docs',
@@ -79,7 +79,7 @@ export const faq = [
     },
     {
         id: '5',
-        question: 'What happens when I’m out of storage?',
+        question: 'What happens when I\'m out of storage?',
         answer:
             'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
     },
@@ -103,7 +103,7 @@ export const faq = [
     },
     {
         id: '9',
-        question: 'I’m locked out of my account what do I do?',
+        question: 'I\'m locked out of my account what do I do?',
         answer: 
             'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
     },
@@ -162,15 +162,15 @@ export const testimonials = [
         id: '0',
         name: 'Jessica Saunders',
         role: 'Globalnomads',
-        avatarUrl: '/images/testimonials/jessica-saunders.png',
+        avatarUrl: 'src/public/images/testimonials/jessica-saunders.png',
         comment:
-            "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
+            "Xora's customer support is second to none! They're like my tech superheroes, always there when I need them.",
     },
     {
         id: '1',
         name: 'Mark Erixon',
         role: 'Vid capital intl',
-        avatarUrl: '/images/testimonials/mark-erixon.png',
+        avatarUrl: 'src/public/images/testimonials/mark-erixon.png',
         comment:
             "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
     },
@@ -178,7 +178,7 @@ export const testimonials = [
         id: '2',
         name: 'Melanie Hurst',
         role: 'Cyberleap',
-        avatarUrl: '/images/testimonials/melanie-hurst.png',
+        avatarUrl: 'src/public/images/testimonials/melanie-hurst.png',
         comment:
             "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
     },
@@ -186,7 +186,7 @@ export const testimonials = [
         id: '3',
         name: 'Alicia Barker',
         role: 'Cyberleap',
-        avatarUrl: '/images/testimonials/alicia-barker.png',
+        avatarUrl: 'src/public/images/testimonials/alicia-barker.png',
         comment:
             "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
     },
@@ -194,7 +194,7 @@ export const testimonials = [
         id: '4',
         name: 'Becky Snider',
         role: 'Floclips',
-        avatarUrl: '/images/testimonials/becky-snider.png',
+        avatarUrl: 'src/public/images/testimonials/becky-snider.png',
         comment:
             "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
     },
@@ -202,7 +202,7 @@ export const testimonials = [
         id: '5',
         name: 'Jim Bradley',
         role: 'Vid capital intl',
-        avatarUrl: '/images/testimonials/jim-bradley.png',
+        avatarUrl: 'src/public/images/testimonials/jim-bradley.png',
         comment:
             'The efficiency boost is undeniable. This platform has transformed our workflow, forever.',
     },
